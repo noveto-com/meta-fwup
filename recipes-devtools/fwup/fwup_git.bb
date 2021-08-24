@@ -1,16 +1,16 @@
 SUMMARY = "Configurable embedded Linux firmware update creator and runner"
 DESCRIPTION = ""
-HOMEPAGE = "https://github.com/fhunleth/fwup"
+HOMEPAGE = "https://github.com/fwup-home/fwup"
 SECTION = "devel"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 DEPENDS = "libconfuse libarchive libsodium zlib pkgconfig-native"
 
-SRC_URI = "git://github.com/fhunleth/fwup.git;protocol=https;"
+SRC_URI = "git://github.com/fwup-home/fwup.git;protocol=https;branch=main"
 
 # Modify these as desired
-PV = "1.3.1"
-SRCREV = "2fe303a2849d9d9a80ec21c9d3adc74d73b4ae4f"
+PV = "1.8.4"
+SRCREV = "3e8924ec3c87a6148b98d6a018177d0d319ede64"
 
 S = "${WORKDIR}/git"
 
